@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "540254077911",
+    "project_id": "health-book-system",
+    "storage_bucket": "health-book-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540254077911:android:a94ca7ee3e4ed043860192",
+        "android_client_info": {
+          "package_name": "com.example.health_book"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp8Jr4tScSjtMPDPOm-hHu09f76Km4y9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
