@@ -18,12 +18,20 @@ class LaboratoryDetailPage extends StatelessWidget {
           child: Stack(
             children: [
               CustomScrollView(
+                physics: const ClampingScrollPhysics(),
                 slivers: [
+                  // App Bar
                   LaboratoryDetailAppBar(),
+                  // Logo
                   LaboratoryDetailLogo(),
+                  // Address
                   LaboratoryDetailAddress(),
+                  // Available Tests
                   LaboratoryDetailAvailableTests(),
+                  // Available Tests List
                   LaboratoryDetailTestsListview(tests: laboratory.tests),
+                  // Bottom Space => To make list visible otherwise one or two list tiles will be behind total button
+                  LaboratoryDetailBottomSpace(),
                 ],
               ),
               const Positioned.fill(

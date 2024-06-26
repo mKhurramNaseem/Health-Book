@@ -77,24 +77,24 @@ List<Laboratory> laboratoryList = [
         price: 300,
       ),
       Test(
-        name: 'HB',
+        name: 'Urine Test',
+        userDescription: 'Test to check blood haemoglobin',
+        price: 200,
+      ),
+      Test(
+        name: 'Blood Group',
+        userDescription: 'Test to check blood haemoglobin',
+        price: 500,
+      ),
+      Test(
+        name: 'New HB',
         userDescription: 'Test to check blood haemoglobin',
         price: 300,
       ),
       Test(
-        name: 'HB',
+        name: 'Five Hb',
         userDescription: 'Test to check blood haemoglobin',
-        price: 300,
-      ),
-      Test(
-        name: 'HB',
-        userDescription: 'Test to check blood haemoglobin',
-        price: 300,
-      ),
-      Test(
-        name: 'HB',
-        userDescription: 'Test to check blood haemoglobin',
-        price: 300,
+        price: 900,
       ),
       Test(
         name: 'HB',
